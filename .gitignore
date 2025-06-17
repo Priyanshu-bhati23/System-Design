@@ -1,0 +1,44 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled binary files
+*.exe
+*.out
+*.app
+
+# Ignore build directories
+/build/
+/bin/
+/dist/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore dependency files
+*.d
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore core dumps
+core
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files
+*.gch
+
+# If using a package manager like vcpkg
+/vcpkg_installed/
+
+# Test cache/output files
+/
